@@ -12,3 +12,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#data-list {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 15%;
+}
+
+#list-detail {
+  border: 1px solid;
+  height: 300px;
+  width: 80%;
+  padding: 0 10px;
+}
+
+#list-detail h1 {
+  padding: 0;
+  margin: 0;
+}
+
+#item-list-box {
+  height: auto;
+  width: 100%;
+  list-style-type: none;
+  border: 1px solid;
+  margin: 5px;
+  
+}
+
+#item-list-box:hover {
+  border: 1px solid;
+  border-color: lightgray;
+}
+
+#item-list-box .item-list-detail {
+  margin: 5px;
+}
